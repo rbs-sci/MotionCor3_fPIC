@@ -143,7 +143,7 @@ SRCS = ./Util/CCufft2D.cpp \
 OBJS = $(patsubst %.cpp, %.o, $(SRCS))
 #-------------------------------------
 CC = g++ -std=c++11
-CFLAG = -c -g -pthread -m64
+CFLAG = -c -g -pthread -m64 -fPIC -fPIE
 NVCC = $(CUDAHOME)/bin/nvcc -std=c++11
 CUFLAG = -Xptxas -dlcm=ca -O2 \
 	-gencode arch=compute_90,code=sm_90 \
