@@ -1,4 +1,5 @@
 #!/bin/bash
+mkdir -p LibSrc/Lib
 cd LibSrc/Mrcfile
 make
 cd ../Util
