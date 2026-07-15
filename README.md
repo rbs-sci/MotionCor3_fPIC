@@ -1,3 +1,5 @@
+fPIC/fPIE edit for builds on modern distributions requiring higher memory security implementations.
+
 # MotionCor3
 Anisotropic correction of beam induced motion for cryo-electron microscopy and cryo-electron tomography images.
 
